@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carta{
+      background-color: rgb(119, 13, 66);
+      color: white;
+      width: 300px;
+      height: 560px;
+      margin: 0 auto ;
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px 25px;
+      border-radius: 10px;
+  }
+  .carta-imagen{
+      width: 100%;
+      height: 400px;
+      display: block;
+      border-radius: inherit;
+  }
+  .carta-nombre{
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 15px;
+  }
+  .carta-genero{
+      font-family: cursive;
+      color: black;
+
+  }
+  .carta-boton{
+      display: block;
+      background-color: red;
+      color: white;
+      text-decoration: none;
+      margin-top: 20px;
+      padding: 12px 0;
+      font-weight: bold;
+      border-radius: 8px;
+
+  }
+  .carta-boton:hover{
+    background-color: rgba(14, 1, 1, 0.979);
+
+  }
+
+
